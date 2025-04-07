@@ -1,6 +1,6 @@
 # Lunch Metrics Condenser
 ## Overview
-The Lunch Metrics Condenser is a Python-based script designed to process registration data from Excel or CSV files, specifically focusing on lunch-related responses. It consolidates and simplifies attendee lunch selections, generating a clean output file and summary metrics to assist event organizers.
+Python-based script designed to process registration data from Excel or CSV files, specifically focusing on lunch-related responses. It consolidates two columns ("Lunch Purchase" and "Lunch") into one singular column ("Lunch Included"), generating a clean output file and summary metrics to assist event organizers.
 
 ## Features
 Automated Lunch Data Processing: Merges and normalizes values from Lunch and Lunch Purchase columns into a single, simplified column (Lunch Included).
@@ -19,8 +19,6 @@ Auto Dependency Handling: Installs pandas automatically if not already available
 Python
 
 pandas – for data manipulation and analysis
-
-subprocess, sys, os – for command-line input handling and environment setup
 
 ## How to Run
 Make sure Python is installed on your system.
