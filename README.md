@@ -28,13 +28,13 @@ Open a terminal or command prompt.
 Run the script using:
 
 ```
-python lunch_metrics.py [your_input_file.xlsx or .csv]
+python condenser.py [your_input_file.xlsx or .csv]
 ```
 If no file is provided, it defaults to Registration Badge Printing.xlsx.
 
 View the console output for lunch metrics.
 
-Check the directory for the new file:
+Check directory for the new file:
 
 ```php
 <original_filename>_condensed.csv
